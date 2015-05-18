@@ -17,7 +17,8 @@ function updateClock() {
  
   var elem = document.getElementById('time');
  
-  elem.innerHTML = '#' + hours + '' + minutes + '' + seconds;
+  elem.innerHTML = '#' + hours + ' ' + minutes + ' ' + seconds;
+document.bgColor="#" + hours + minutes + seconds;
 }
 
 window.setInterval(updateClock, 200);
